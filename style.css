@@ -1,5 +1,5 @@
 
-  @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;1,400;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;1,400;1,500&display=swap');
  body{
     background-color: black;
     margin: 0%;
@@ -37,15 +37,14 @@ input, .lgr::placeholder{
 }
 .occup{
     width: 100%;
-    height: auto;
+    height: 100px;
 }
-.mon-image{
+.container-fluid{
     width: 100%;
-    height: 70px;
+    margin: 0px;
+    padding: 0px;
 }
-.dernier{
-    padding: 10px 10px;
-    background-color: rgb(212, 221, 220);
+.mini{
+    width: 100%;
+    height: 90vh;
 }
-
-

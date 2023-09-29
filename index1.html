@@ -14,10 +14,11 @@
 
 <body class="bg-light">
   <nav class="navbar navbar-expand-lg bg-dark">
-    <div class="container-fluid mx-5 fixer">
+    <div class="container-fluid mx-5">
       <a class="navbar-brand text-light" href="#"> <span class="nom">SAOTA</span></a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse"
+        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+        aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -51,105 +52,119 @@
       </div>
     </div>
   </nav>
-  <div class="galerie">
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-12">
-          <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
-            <div class="carousel-indicators">
-              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-            </div>
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <div id="guissna">
-                  <img src="image/ima3.jpg" class="d-block w-100" alt="...">
-                  <div class="carousel-caption d-none d-md-block">
-                    <h5>Third slide label</h5>
-                    <p>Some representative placeholder content for the third slide.</p>
-                  </div>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <div id="photoma">
-                  <img src="image/ima.jpg" class="d-block w-100" alt="...">
-                  <div class="carousel-caption d-none d-md-block">
-                    <h5>Third slide label</h5>
-                    <p>Some representative placeholder content for the third slide.</p>
-                  </div>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <div id="ok">
-                  <img src="image/ima2.jpg" class="d-block w-100" alt="...">
-                  <div class="carousel-caption d-none d-md-block">
-                    <h5>Third slide label</h5>
-                    <p>Some representative placeholder content for the third slide.</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-            </button>
+
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-12">
+      <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active" >
+            <img src="image/ima.jpg" class="mini" alt="...">
+          </div>
+          <div class="carousel-caption d-none d-md-block">
+            <h5>First slide label</h5>
+            <p>Some representative placeholder content for the first slide.</p>
+          </div>
+          <div class="carousel-item" >
+            <img src="image/ima2.jpg" class="mini"  alt="...">
+          </div>
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Two slide label</h5>
+            <p>Some representative placeholder content for the first slide.</p>
+          </div>
+          <div class="carousel-item" >
+            <img src="image/ima3.jpg" class="mini" alt="...">
+          </div>
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Third slide label</h5>
+            <p>Some representative placeholder content for the first slide.</p>
+          </div>
+          <div class="carousel-item" >
+            <img src="image/image2.jpeg" class="mini" alt="...">
+          </div>
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Third slide label</h5>
+            <p>Some representative placeholder content for the first slide.</p>
           </div>
         </div>
-      </div>
-      <div class="row dernier">
-        <div class="col-sm-1 col-md-1 offset-1">
-          <div>
-            <a href="#photoma">
-              <img src="image/ima.jpg" alt="" class="mon-image">
-            </a>
-          </div>
-        </div>
-        <div class="col-sm-1 col-md-1 offset-1">
-          <div>
-            <a href="#ok">
-              <img src="image/ima.jpg" alt="" class="mon-image">
-            </a>
-          </div>
-        </div>
-        <div class="col-sm-1 col-md-1 offset-1">
-          <div>
-            <a href="#guissna">
-              <img src="image/ima.jpg" alt="" class="mon-image">
-            </a>
-          </div>
-        </div>
-        <div class="col-sm-1 col-md-1 offset-1">
-          <div>
-            <a href="#">
-              <img src="image/ima.jpg" alt="" class="mon-image">
-            </a>
-          </div>
-        </div>
-        <div class="col-sm-1 col-md-1 offset-1">
-          <div>
-            <a href="#">
-              <img src="image/ima.jpg" alt="" class="mon-image">
-            </a>
-          </div>
-        </div>
-        <div class="col-sm-1 col-md-1 offset-1">
-          <div>
-            <a href="#">
-              <img src="image/ima.jpg" alt="" class="mon-image">
-            </a>#
-          </div>
-        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
       </div>
     </div>
+  </div>
+</div>
+<div class="container-fluid mt-3">
+  <div class="row  justify-content-center">
+    <div class="col-2 col-md-2" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0">
+        <img src="image/ima.jpg" class="occup" alt="">
+    </div>
+    <div class="col-2 col-md-2" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1">
+        <img src="image/ima2.jpg" class="occup" alt="">
+    </div>
+    <div class="col-2 col-md-2" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2">
+        <img src="image/ima3.jpg" class="occup" alt="">
+    </div>
+    <div class="col-2 col-md-2" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3">
+        <img src="image/image4.jpeg" class="occup" alt="">
+    </div>
+  </div>
+  <div class="row mt-5">
+    <div class="col-11-offset-1 col-md-3">
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime, fugiat!</p>
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime, fugiat!</p>
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime, fugiat!</p>
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime, fugiat!</p>
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime, fugiat!</p>
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime, fugiat!</p>
+    </div>
+    <div class="col-11-offset-1 col-md-3">
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime, fugiat!</p>
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime, fugiat!</p>
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime, fugiat!</p>
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime, fugiat!</p>
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime, fugiat!</p>
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime, fugiat!</p>
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime, fugiat!</p>
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime, fugiat!</p>
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime, fugiat!</p>
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime, fugiat!</p>
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime, fugiat!</p>
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime, fugiat!</p>
+    </div>
+    <div class="col-11-offset-1 col-md-3">
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime, fugiat!</p>
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime, fugiat!</p>
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime, fugiat!</p>
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime, fugiat!</p>
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime, fugiat!</p>
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime, fugiat!</p>
+    </div>
+  </div>
+</div>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
-      crossorigin="anonymous"></script>
+
+
+
+
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+    crossorigin="anonymous"></script>
 </body>
 
 </html>
